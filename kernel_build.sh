@@ -86,7 +86,7 @@ PATH="$sattire/bin:$PATH" \
 	exit 1
    fi
 
-  git clone --depth=1 $ANYKERNEL AnyKernel
+  git clone --depth=1 https://github.com/xootkama/AnyKernel3 AnyKernel
 	cp $IMAGE AnyKernel
 }
 
