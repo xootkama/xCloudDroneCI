@@ -15,7 +15,7 @@
 # BUILD_USER | Your username
 # BUILD_HOST | Your hostname
 
-apt install libncurses5-dev -y
+apt install libncurses5-dev  libncurses5 -y
 
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
