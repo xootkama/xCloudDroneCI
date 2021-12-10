@@ -20,4 +20,5 @@ steps:
      GH_PUSH_REPO_URL:
        from_secret: GH_PUSH_REPO_URL
    commands:
+     - apt update -y && apt install -y --no-install-recommends cmake ninja-build python3-pip libffi-dev python3-dev  clang bc gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi ncurses-dev
      - bash llvm-tc_build.sh
