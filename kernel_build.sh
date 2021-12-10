@@ -18,7 +18,7 @@
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
 git clone --depth=1 https://github.com/xootkama/android_kernel_asus_sdm636-2 -b 4.4 $DEVICE_CODENAME
-git clone --depth=1 https://github.com/xootkama/Snap-TC xRageTC # xRageTC set as Clang Default
+git clone --depth=1 https://github.com/ArrowOS-Devices/proton-clang xRageTC # xRageTC set as Clang Default
 
 # Main Declaration
 KERNEL_ROOTDIR=$(pwd)/$DEVICE_CODENAME # IMPORTANT ! Fill with your kernel source root directory.
