@@ -15,6 +15,8 @@
 # BUILD_USER | Your username
 # BUILD_HOST | Your hostname
 
+apt install libncurses5-dev -y
+
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
 git clone --depth=1 https://github.com/xootkama/android_kernel_asus_sdm636-2 -b 4.4 $DEVICE_CODENAME
