@@ -19,7 +19,7 @@ apt install libncurses5-dev  libncurses5 -y
 
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
-git clone --depth=1 https://github.com/xootkama/android_kernel_asus_sdm636-2 -b 4.4 $DEVICE_CODENAME
+git clone --depth=1 https://github.com/xootkama/android_kernel_realme_sdm710-1 -b twelve $DEVICE_CODENAME
 git clone --depth=1 https://github.com/kmou424/proton-clang-11 xRageTC # xRageTC set as Clang Default
 
 # Main Declaration
