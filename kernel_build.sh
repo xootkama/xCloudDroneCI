@@ -20,7 +20,7 @@ apt install libncurses5-dev  libncurses5 -y
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
 git clone --depth=1 https://github.com/xootkama/android_kernel_realme_sdm710-3 $DEVICE_CODENAME
-git clone --depth=1 https://github.com/xootkama/prebuilts_clang_host_linux-x86_clang-6778096 xRageTC # xRageTC set as Clang Default
+git clone --depth=1 https://github.com/xootkama/Snap-TC xRageTC # xRageTC set as Clang Default
 
 # Main Declaration
 KERNEL_ROOTDIR=$(pwd)/$DEVICE_CODENAME # IMPORTANT ! Fill with your kernel source root directory.
