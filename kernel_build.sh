@@ -19,7 +19,7 @@ apt install libncurses5-dev  libncurses5 -y
 
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
-git clone --depth=1 https://github.com/xootkama/CAF-test -b jinx $DEVICE_CODENAME
+git clone --depth=1 https://github.com/xootkama/CAF-test -b dm $DEVICE_CODENAME
 git clone --depth=1 https://github.com/xootkama/Snap-TC xRageTC # xRageTC set as Clang Default
 
 # Main Declaration
