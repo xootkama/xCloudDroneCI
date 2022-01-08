@@ -15,7 +15,7 @@
 # BUILD_USER | Your username
 # BUILD_HOST | Your hostname
 
-apt install libncurses5-dev  libncurses5 -y
+apt install libncurses5-dev  libncurses5 -y ccache
 
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
@@ -75,6 +75,7 @@ sattire=`find / -type d -name "xRageTC" 2>/dev/null`
 
 PATH="$sattire/bin:$PATH" \
  
+ ccache -c
   make                O=out \
                       ARCH=arm64 \
                       CC=clang \
