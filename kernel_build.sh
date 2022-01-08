@@ -20,7 +20,7 @@ apt install libncurses5-dev  libncurses5 -y
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
 git clone --depth=1 https://github.com/xootkama/CAF-test -b narp $DEVICE_CODENAME
-git clone --depth=1 https://github.com/xootkama/Snap-TC xRageTC # xRageTC set as Clang Default
+git clone --depth=1 https://github.com/xootkama/aosp-clang xRageTC # xRageTC set as Clang Default
 
 # Main Declaration
 KERNEL_ROOTDIR=$(pwd)/$DEVICE_CODENAME # IMPORTANT ! Fill with your kernel source root directory.
