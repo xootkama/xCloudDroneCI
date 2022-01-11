@@ -15,7 +15,7 @@
 # BUILD_USER | Your username
 # BUILD_HOST | Your hostname
 
-apt install libncurses5-dev  libncurses5 -y ccache
+apt install libncurses5-dev  libncurses5 -y ccache unzip
 
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
