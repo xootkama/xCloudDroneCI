@@ -20,7 +20,11 @@ apt install libncurses5-dev  libncurses5 -y ccache
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
 git clone --depth=1 https://github.com/xootkama/CAF-test -b confirm $DEVICE_CODENAME
-git clone --depth=1 https://github.com/xootkama/Snap-TC xRageTC # xRageTC set as Clang Default
+mkdir xRageTC
+curl https://xootkama.xootkama.workers.dev/0:/11.2.0.zip --output gcc.zip
+unzip gcc.zip
+rm -rf gcc.zip
+cd ..
 
 # Main Declaration
 KERNEL_ROOTDIR=$(pwd)/$DEVICE_CODENAME # IMPORTANT ! Fill with your kernel source root directory.
