@@ -19,7 +19,7 @@ apt install libncurses5-dev  libncurses5 -y ccache unzip
 
 echo "Downloading few Dependecies . . ."
 # Kernel Sources
-git clone --depth=1 https://github.com/xootkama/CAF-test -b confirm $DEVICE_CODENAME
+git clone --depth=1 https://github.com/xootkama/CAF-test -b test $DEVICE_CODENAME
 mkdir xRageTC
 cd xRageTC
 curl https://xootkama.xootkama.workers.dev/0:/11.2.0.zip --output gcc.zip
